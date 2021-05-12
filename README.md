@@ -15,7 +15,6 @@ docker run docker.pkg.github.com/vegayed/desafio/apidesafio:v1.0
 
     GET /region/?id_region={}
 
-### Obtener todas las farmacias de una comuna, se necesitan dos parametros el id de la region y el nombre de la comuna
+### Obtener todas las farmacias de una comuna, se necesitan dos parametros el id de la region y el nombre de la comuna como texto ej: &comuna="ARICA"
 
-    GET farmacias/comuna/?id_region=1&comuna="ARICA"
- 
+    GET farmacias/comuna/?id_region={id}&comuna={comuna}
