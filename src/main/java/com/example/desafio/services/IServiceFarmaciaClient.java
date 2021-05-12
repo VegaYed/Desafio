@@ -4,6 +4,6 @@ public interface IServiceFarmaciaClient {
 
 	String callGetAllFarmacias();
 	
-	String callGetAllFarmaciasByComunaId(String id);
+	String callGetAllFarmaciasByRegionId(Integer id);
 	
 }
