@@ -13,7 +13,7 @@ public class ServiceFarmaciaClientImpl implements IServiceFarmaciaClient{
 	
 	private static final String GET_ALL_BY_REGION_ID = "https://farmanet.minsal.cl/maps/index.php/ws/getLocalesRegion?id_region={region}";
 	private static final String GET_ALL_BY_REGION_ID_AND_COMUNA = "https://farmanet.minsal.cl/maps/index.php/ws/getLocalesRegion?id_region={region}&comuna_nombre={comuna}";
-    static RestTemplate restTemplate = new RestTemplate();
+    private static RestTemplate restTemplate = new RestTemplate();
 
 
 	@Override
