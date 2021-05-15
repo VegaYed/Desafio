@@ -27,3 +27,5 @@ Este microservicio fue desplegado en GCP ocupando las herramientas de Cloud Run 
 #### ENDPOINT GCP
     
     GET https://minsal-api-desafio-qc7vpmaava-uc.a.run.app/farmacias/region/?id_region{{id}}
+    
+    GET https://minsal-api-desafio-qc7vpmaava-uc.a.run.app/farmacias/comuna/?id_region=1&comuna=%22ARICA%22
